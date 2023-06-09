@@ -1,0 +1,164 @@
+*,html,body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.wrapper {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+}
+.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.firstname {
+    color: white;
+    font-weight: bold;
+   font-variant: small-caps;
+}
+.lastname {
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation>li {
+    list-style: none;
+    padding: 10px;
+}
+.navigation>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.navigation>li>a:hover {
+    background-color: white;
+    border: 2px;
+    color: black;
+    font-weight: bold;
+    transition: 1s all;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.name {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-transform: capitalize;
+    color: black;
+}
+.name-one {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+}
+.name-two {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+}
+.name-three {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+}
+.name-for {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+}
+input {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+input:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    transition: 1s all;
+}
+textarea {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+textarea:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    transition: 1s all;
+    background-color: black;
+}
+.button>li {
+    list-style: none;
+    padding: 50px;
+    text-align: center;
+}
+.button>li>a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    border: 10px;
+    border-radius: 5px;
+}
+.button>li>a:hover {
+    background-color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    border: 10px;
+    border-radius: 30px;
+    transition: 1s all;
+    color: white;
+}
