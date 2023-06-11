@@ -1,0 +1,129 @@
+*,html,body {
+    padding: 0%;
+    margin: 0%;
+}
+.fContainer {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.wrapper {
+    padding: 0.7vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1vh;
+    margin: 0.6%;
+}
+
+.firstname {
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 3vw;
+}
+.lastname {
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 3vw;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation>li {
+    list-style: none;
+    padding: 1vh;
+}
+.navigation>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name {
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    color: black;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name-one {
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.name-two {
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.name-three {
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.name-for {
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+input {
+    padding: 0.9%;
+    margin: 1%;
+    display: flex;
+    border: 1%;
+    border-radius: 20vh;
+    text-align: center;
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+    padding: 0.9%;
+    margin: 1%;
+    display: flex;
+    border-radius: 2vh;
+    text-align: center;
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button>li {
+    list-style: none;
+    padding: 2%;
+    text-align: center;
+}
+.button>li>a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: black;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    padding: 2%;
+    border: 1%;
+    border-radius: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
